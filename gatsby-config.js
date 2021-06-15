@@ -2,5 +2,10 @@ module.exports = {
   siteMetadata: {
     title: "My First Gatsby Site",
   },
-  plugins: ["gatsby-plugin-theme-ui"],
+  plugins: [
+    "gatsby-plugin-theme-ui",
+    "gatsby-plugin-gatsby-cloud",
+    "gatsby-plugin-image",
+    "gatsby-plugin-sharp",
+  ],
 };
